@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('hello') {
       steps {
-        sh 'pwsh hello.ps1'
+        powershell('hello.ps1')
       }
     }
   }
