@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('hello') {
       steps {
-        powershell('hello.ps1')
+        powershell(script: 'C:\\hello.ps1')
       }
     }
   }
